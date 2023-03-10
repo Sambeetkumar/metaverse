@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
   content: [
     './src/**/*.{html,js,jsx}',
@@ -14,6 +15,10 @@ module.exports = {
       },
       transitionTimingFunction: {
         'out-flex': 'cubic-bezier(0.05, 0.6, 0.4, 0.9)',
+      },
+      screens: {
+        'xs': {'min': '300px','max': '500px'},
+        ...defaultTheme.screens,
       },
     },
   },

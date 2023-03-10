@@ -3,8 +3,15 @@ import planet2 from "./assets/planet-02.png";
 import planet3 from "./assets/planet-03.png"; 
 import planet4 from "./assets/planet-04.png";
 import planet5 from "./assets/planet-05.png";
+import planet6 from "./assets/planet-06.png";
+import planet7 from "./assets/planet-07.png";
+import planet8 from "./assets/planet-08.png";
 import vrpano from './assets/vrpano.svg'; 
-import headset from './assets/headset.svg';   
+import headset from './assets/headset.svg';
+import twitter from './assets/twitter.svg';
+import linkedin from './assets/linkedin.svg';
+import instagram from './assets/instagram.svg';
+import facebook from './assets/facebook.svg';  
 export const exploreWorlds = [
     {
       id: 'world-1',
@@ -56,41 +63,41 @@ export const exploreWorlds = [
   
   export const insights = [
     {
-      imgUrl: '/planet-06.png',
-      title: 'The launch of the Metaverse makes Elon musk ketar-ketir',
+      imgUrl: planet6,
+      title: 'The launch of the Metaverse makes Elon musk curious',
       subtitle:
-          'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
+          'Musk said, “I don’t know if I necessarily buy into this Metaverse stuff, although people talk to me a lot about it.”',
     },
     {
-      imgUrl: '/planet-07.png',
+      imgUrl: planet7,
       title: '7 tips to easily master the madness of the Metaverse',
       subtitle:
-          'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
+          'Create, Customize, Import, Or Select An Avatar From Our Library! If You Can Dream It You Can Be It.',
     },
     {
-      imgUrl: '/planet-08.png',
+      imgUrl: planet8,
       title: 'With one platform you can explore the whole world virtually',
       subtitle:
-          'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
+          'Stay up-to-date on what’s going around the METAVERSE. Connect with people via exhibitions, experiences, and much more.',
     },
   ];
   
   export const socials = [
     {
       name: 'twitter',
-      url: '/twitter.svg',
+      url: twitter,
     },
     {
       name: 'linkedin',
-      url: '/linkedin.svg',
+      url: linkedin,
     },
     {
       name: 'instagram',
-      url: '/instagram.svg',
+      url: instagram,
     },
     {
       name: 'facebook',
-      url: '/facebook.svg',
+      url: facebook,
     },
   ];
   
