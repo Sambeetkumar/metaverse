@@ -40,6 +40,7 @@ const Feedback = () => (
           src={planet9}
           alt="planet-09"
           className="w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
+          loading='lazy'
         />
 
         <motion.div
